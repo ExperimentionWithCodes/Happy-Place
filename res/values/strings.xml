@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Happy Place</string>
+<string name="info">
+   <br> Focusing on your breathing slows down the adrenaline response and the distressing thoughts. </br>
+    <br>Breathe mindfully and notice the sensations of breathing into your belly.</br>
+    <br>You might find it helpful to count your breaths,or to breathe in to count of 4.</br>
+</string>
+    <string name="mind_reading">Mind-Reading</string>
+    <string name="title_activity_stress">Stress</string>
+
+</resources>
