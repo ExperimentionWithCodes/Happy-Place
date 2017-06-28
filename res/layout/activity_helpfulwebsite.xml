@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.shubhangi.happyplace.Helpfulwebsite">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="www.adaa.org"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="browser1"
+        android:textAlignment="center"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="www.mentalhealthamerica.net"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal"
+        android:onClick="browser2"
+        android:textAlignment="center"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="www.dbsalliance.org"
+        android:id="@+id/button7"
+        android:layout_gravity="center_horizontal"
+        android:onClick="browser3"
+        android:textAlignment="center"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Suicide Hotline"
+        android:id="@+id/button8"
+        android:layout_gravity="center_horizontal"
+        android:onClick="browser4"
+        android:textAlignment="center"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
