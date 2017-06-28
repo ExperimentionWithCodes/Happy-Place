@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shubhangi.happyplace">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/happy1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".frontpage" />
+        <activity android:name=".StopMain" />
+        <activity android:name=".StopMain1" />
+        <activity android:name=".frontpage1HELP" />
+        <activity android:name=".frontpageCOPING" />
+        <activity android:name=".frontpageINFO" />
+        <activity android:name=".ThinkingPatterns" />
+        <activity android:name=".StopMain2" />
+        <activity android:name=".StopMain3" />
+        <activity android:name=".Anger" />
+        <activity android:name=".Anxiety" />
+        <activity android:name=".Depression" />
+        <activity android:name=".Stress" />
+        <activity android:name=".Helpfulwebsite" />
+        <activity android:name=".Affirmation" />
+        <activity android:name=".DisplayUsername" />
+        <activity android:name=".Managingworries" />
+        <activity android:name=".Upliftingquotes" />
+        <activity android:name=".Metaphors"></activity>
+    </application>
+
+</manifest>
